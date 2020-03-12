@@ -9,6 +9,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
  * Angular Material imports.
  */
 import { MatCardModule } from '@angular/material/card';
+import { MatGridListModule } from '@angular/material/grid-list';
+
 
 
 @NgModule({
@@ -21,6 +23,7 @@ import { MatCardModule } from '@angular/material/card';
     BrowserAnimationsModule,
     // Angular Material
     MatCardModule,
+    MatGridListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
