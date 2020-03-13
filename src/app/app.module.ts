@@ -10,6 +10,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
  */
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatToolbarModule } from '@angular/material/toolbar';
+
 
 
 
@@ -24,6 +26,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
     // Angular Material
     MatCardModule,
     MatGridListModule,
+    MatToolbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
