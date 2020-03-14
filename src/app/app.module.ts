@@ -11,13 +11,21 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatToolbarModule } from '@angular/material/toolbar';
-
-
-
+import { MatTabsModule } from '@angular/material/tabs';
+import { MainGridComponent } from './main-grid/main-grid.component';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { LayoutModule } from '@angular/cdk/layout';
+import { LandingComponent } from './landing/landing.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainGridComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
@@ -27,6 +35,13 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatCardModule,
     MatGridListModule,
     MatToolbarModule,
+    MatTabsModule,
+    MatMenuModule,
+    MatIconModule,
+    MatButtonModule,
+    LayoutModule,
+    MatSidenavModule,
+    MatListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
