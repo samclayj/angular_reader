@@ -20,12 +20,17 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { LandingComponent } from './landing/landing.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { DataTableComponent } from './data-table/data-table.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainGridComponent,
-    LandingComponent
+    LandingComponent,
+    DataTableComponent
   ],
   imports: [
     BrowserModule,
@@ -42,6 +47,9 @@ import { MatListModule } from '@angular/material/list';
     LayoutModule,
     MatSidenavModule,
     MatListModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
